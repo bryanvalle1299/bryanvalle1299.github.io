@@ -1,0 +1,164 @@
+body{
+	font: 15px/1.5 italianno;
+	padding:0;
+	margin:0;
+	background-color:aliceblue;
+}
+
+/*Global */
+#container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+
+/* Header **/
+header{
+	background:black;
+	color:beige;
+	paddint-top:100px;
+	min-height:100px;
+	border-bottom:beige 6px solid;
+}
+
+header a{
+	color:beige;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-family:italianno;
+	font-size:16px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin-top:22px;
+	margin-left:40px;
+}
+header nav{
+	float:right;
+	margin-top:32px;
+}
+
+header .highlight, header .current a{
+	color:darkslategrey;
+	font-weight:bold;
+}
+
+header a:hover{
+	color:darkslategrey;
+	font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+	min-height:550px;
+	background:url('../img/background.jpg') no-repeat 0 -100px;
+	text-align:center;
+	color:darkslategrey;
+	background-size:cover;
+	background-position:center;
+}
+
+#showcase a{
+	color:darkslategrey;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-family:italianno;
+	font-size:15px;
+	
+}
+
+#showcase li{
+	float:none;
+	display:block;
+	padding: 0px 20px 0 20px;
+}
+
+#showcase h1{
+	margin-top:0px;
+	font-size:35px;
+	margin-bottom:10px;
+	font-family: italianno;
+	padding-top: 100px;
+}
+
+#showcase h2{
+	margin-top:0px;
+	font-size:35px;
+	margin-bottom:10px;
+	font-family: italianno;
+}
+#showcase u1{
+	font-size:20px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#showcase1{
+	padding:10px;
+	margin-top:0px;
+	background-color:darkslategrey
+}
+
+
+/* Boxes */
+#boxes{
+	margin-top:20px;
+}
+
+#boxes .box{
+	float:left;
+	text-align: center;
+	width:30%;
+	padding:10px;
+}
+
+#boxes .box img{
+	width: 70px;
+}
+
+footer{
+	padding:10px;
+	margin-top:200px;
+	color:beige;
+	background-color:darkslategrey;
+	text-align: center;
+}
+
+/* Media Queries */
+@media(max-width : 1008px ){
+	header #branding,
+	header nav,
+	header nav li,
+	#boxes .box{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	
+	header{
+		padding-bottom:20px
+	}
+	
+	#showcase h1{
+		margin-top:40px;
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
